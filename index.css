@@ -1,0 +1,121 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:aquamarine;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.link-container a{
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 60px;
+    text-decoration: none;
+}
+.header-title{
+    text-align: center;
+    padding-top: 25px;
+
+}
+.para-discription{
+    text-align: center;
+    font-weight:40px ;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    
+}
+.button-container{
+    text-align: center;
+    margin-top: 15px;
+}
+.primary-btn{
+    height: 35px;
+    width:110px ;
+    border-radius: 7px;
+    border: none;
+    background-color:orange;
+    color: aqua;
+    font-size: 15px;
+    font-weight: 80px;
+    margin-top: 15px;
+    
+    
+}
+.baner-img{
+    width: 80%;
+    margin: 0 auto;
+}
+.baner-img img{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.features-container{
+    display: flex;
+    align-items: center;
+
+}
+.features-img{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.features-img img{
+    width: 100%;
+}
+.features-discription{
+    width: 50%;
+    padding: 0 20px;
+   
+}
+/* features-details-container */
+.features-details-container{
+    display: flex;
+    margin-top: 40px;
+    gap: 15px;
+}
+.features-details-content{
+    width: 50%;
+}
+.features-details-content div{
+    height: 60px;
+    margin-top: 25px;
+    padding-left: 10px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    box-shadow: 10px 10px white;
+}
+.features-details-img{
+    width: 50%;
+}
+.features-details-img img{
+    width: 100%;
+    object-fit: contain;
+    
+    
+}
+
+
